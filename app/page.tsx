@@ -99,7 +99,7 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="페이지 상단으로 이동">
-          <span className="status-dot" /> FE.PORTFOLIO / 2026
+          <span className="status-dot" /> LEE JAEGYEOM / PORTFOLIO
         </a>
         <nav aria-label="주요 메뉴">
           <a href="#projects">PROJECTS</a>
@@ -109,21 +109,30 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">// FRONTEND ENGINEER · EDU TOSEL</p>
+          <p className="eyebrow">// FRONTEND DEVELOPER · LEE JAEGYEOM</p>
           <h1>
-            복잡한 운영을
-            <br />
-            <em>명료한 제품</em>으로.
+            이재겸
+            <small>Frontend Developer</small>
           </h1>
           <p className="intro">
-            에듀토셀에서 프론트엔드 개발자로 근무하며 사내 ERP부터 결제,
-            학습 서비스, 디자인 시스템까지 비즈니스의 문제를 사용 가능한
-            인터페이스로 전환했습니다.
+            사용자 경험을 중심에 두고, 복잡한 요구사항을 누구나 편리하게
+            사용할 수 있는 서비스로 구현하는 프론트엔드 개발자입니다.
+            에듀토셀에서 ERP, 결제, 학습 서비스와 디자인 시스템을 개발했습니다.
           </p>
-          <div className="hero-meta" aria-label="핵심 역량">
+          <div className="profile-links" aria-label="연락처 및 프로필">
+            <a href="mailto:thfpdhk1@gmail.com">
+              <span>EMAIL</span>
+              <strong>thfpdhk1@gmail.com</strong>
+            </a>
+            <a href="https://github.com/jayLrei" target="_blank" rel="noreferrer">
+              <span>GITHUB</span>
+              <strong>github.com/jayLrei ↗</strong>
+            </a>
+          </div>
+          <div className="hero-meta" aria-label="경력 및 핵심 기술">
+            <div><span>EXPERIENCE</span><strong>TOSEL · 2023.04—2025.05</strong></div>
             <div><span>CORE STACK</span><strong>React · Next.js</strong></div>
             <div><span>LANGUAGE</span><strong>TypeScript</strong></div>
-            <div><span>FOCUS</span><strong>Product Engineering</strong></div>
           </div>
         </div>
 
@@ -181,8 +190,9 @@ export default function Home() {
       </section>
 
       <footer id="about">
-        <p>FRONTEND ENGINEER</p>
-        <p>React · Next.js · TypeScript</p>
+        <p>이재겸 · FRONTEND DEVELOPER</p>
+        <a href="mailto:thfpdhk1@gmail.com">thfpdhk1@gmail.com</a>
+        <a href="https://github.com/jayLrei" target="_blank" rel="noreferrer">GITHUB ↗</a>
         <a href="#top">BACK TO TOP ↑</a>
       </footer>
     </main>
