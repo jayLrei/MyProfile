@@ -45,7 +45,7 @@ const projects = [
       "Easy Pay를 Toss Payments 연동으로 전환해 결제 시스템 재구축",
     ],
     result: "단체 접수 누락 문제를 해결하고 사용자 경험과 매출 개선에 기여했습니다.",
-    href: "https://tosel.com",
+    href: "https://tosel.org",
   },
   {
     number: "05",
