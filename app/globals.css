@@ -40,10 +40,15 @@ nav a:hover, nav a:focus-visible { color: var(--mint); }
 .hero { min-height: calc(100vh - 82px); display: grid; grid-template-columns: 1.1fr .9fr; }
 .hero-copy { padding: clamp(74px, 8vw, 126px) 8vw 38px 4px; border-right: 1px solid var(--line); display: flex; flex-direction: column; }
 .eyebrow, .section-label { margin: 0; color: var(--mint); font: 600 12px/1.4 var(--font-geist-mono), monospace; letter-spacing: .12em; }
-h1 { margin: 28px 0 34px; font-size: clamp(54px, 5.8vw, 92px); line-height: 1.04; letter-spacing: -.065em; font-weight: 700; }
-h1 em { color: var(--mint); font-style: normal; }
+h1 { margin: 28px 0 34px; font-size: clamp(46px, 4.3vw, 68px); line-height: 1.04; letter-spacing: -.055em; font-weight: 700; }
+h1 small { display: block; margin-top: 17px; color: var(--mint); font: 550 clamp(18px, 1.65vw, 25px)/1.2 var(--font-geist-mono), monospace; letter-spacing: -.03em; }
 .intro { max-width: 650px; margin: 0; color: #c7ceca; font-size: clamp(16px, 1.25vw, 20px); line-height: 1.85; word-break: keep-all; }
-.hero-meta { margin-top: auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding-top: 52px; border-top: 1px solid var(--line); }
+.profile-links { display: flex; flex-wrap: wrap; gap: 12px 30px; margin-top: 34px; }
+.profile-links a { display: flex; align-items: baseline; gap: 10px; border-bottom: 1px solid #415149; padding-bottom: 5px; transition: color .2s ease, border-color .2s ease; }
+.profile-links a:hover, .profile-links a:focus-visible { color: var(--mint); border-color: var(--mint); }
+.profile-links span { color: #6f7773; font: 500 9px/1 var(--font-geist-mono), monospace; letter-spacing: .12em; }
+.profile-links strong { font: 500 12px/1.4 var(--font-geist-mono), monospace; }
+.hero-meta { margin-top: auto; display: grid; grid-template-columns: 1.35fr 1fr .8fr; gap: 20px; padding-top: 42px; border-top: 1px solid var(--line); }
 .hero-meta div { display: flex; flex-direction: column; gap: 10px; }
 .hero-meta span { color: #6f7773; font: 500 10px/1 var(--font-geist-mono), monospace; letter-spacing: .12em; }
 .hero-meta strong { font: 500 13px/1.4 var(--font-geist-mono), monospace; }
@@ -100,8 +105,9 @@ footer a { color: var(--mint); }
   nav { gap: 16px; }
   nav a:last-child { display: none; }
   .hero-copy { min-height: 670px; padding-top: 70px; }
-  h1 { font-size: clamp(46px, 14vw, 65px); }
+  h1 { font-size: clamp(42px, 12vw, 54px); }
   .intro { font-size: 15px; }
+  .profile-links { align-items: flex-start; flex-direction: column; }
   .hero-meta { grid-template-columns: 1fr 1fr; }
   .hero-meta div:last-child { grid-column: 1 / -1; }
   .project-index a { grid-template-columns: 36px 1fr 18px; }
